@@ -26,7 +26,7 @@ const user1 = {
 const user2 = {
     nome: "teste2",
     email: "teste2@email.com",
-    cpf: "12312312312",
+    cpf: "12345678901",
     profissao: "Programador",
     endereco: {
         cep: "40123123",
