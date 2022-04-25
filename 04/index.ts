@@ -16,22 +16,7 @@ type Address = {
     cidade: string
 }
 
-const userAtt = {
-    nome: "teste2",
-    email: "teste2@email.com",
-    cpf: "12345678901",
-    profissao: "Programador",
-    endereco: {
-        cep: "40123123",
-        rua: "teste",
-        bairro: "ali na esquina",
-        cidade: "de vidro",
-        complemento: 'blabla'
-    }
-}
-
-
-const deleteUser = (cpf: string, newData: User): void => {
+const deleteUser = (cpf: string): void => {
     let readResponse = JSON.parse(fs.readFileSync('./bd.json'))
     const find = readResponse.find((user: { cpf: string }): {} => user.cpf === cpf)
     let attDeleteUser: User
@@ -46,6 +31,6 @@ const deleteUser = (cpf: string, newData: User): void => {
     return console.log(find)
 }
 
-deleteUser("12345678901", userAtt)
+deleteUser("12345678901")
 
 export = {}
