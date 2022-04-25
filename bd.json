@@ -4,5 +4,23 @@
     "email": "teste1@email.com",
     "cpf": "12312312312",
     "endereco": null
+  },
+  {
+    "nome": "teste1",
+    "email": "teste1@email.com",
+    "cpf": "12312312312",
+    "endereco": null
+  },
+  {
+    "nome": "teste2",
+    "email": "teste2@email.com",
+    "cpf": "12345678901",
+    "profissao": "Programador",
+    "endereco": {
+      "cep": "40123123",
+      "rua": "teste",
+      "bairro": "ali na esquina",
+      "cidade": "de vidro"
+    }
   }
 ]
