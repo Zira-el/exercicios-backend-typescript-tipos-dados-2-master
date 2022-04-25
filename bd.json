@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "nome": "teste1",
+    "email": "teste1@email.com",
+    "cpf": "12312312312",
+    "endereco": null
+  }
+]
